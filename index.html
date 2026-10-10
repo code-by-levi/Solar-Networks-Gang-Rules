@@ -1,7 +1,7 @@
 <!----
-Ryze RP — Gang Rules (Website HTML)
+solar RP — Gang Rules (Website HTML)
 VS Code ready: save as `gang-rules.html`
-Put your image at: /images/ryze-banner.png (or change the src below)
+Put your image at: /images/solar-banner.png (or change the src below)
 Open with VS Code Live Server.
 -->
 <!DOCTYPE html>
@@ -9,162 +9,162 @@ Open with VS Code Live Server.
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>ryze RP — Gang Rules & Regulations</title>
+<title>solar RP — Gang Rules & Regulations</title>
 
 <style>
 :root{
-  --ryze-bg:#0b0f17;
-  --ryze-panel:rgba(255,255,255,.06);
-  --ryze-text:rgba(255,255,255,.92);
-  --ryze-muted:rgba(255,255,255,.72);
-  --ryze-border:rgba(255,255,255,.14);
-  --ryze-accent:#ff4db8;
-  --ryze-accent-2:#7c5cff;
-  --ryze-shadow:0 18px 60px rgba(0,0,0,.45);
-  --ryze-radius:18px;
-  --ryze-radius-sm:12px;
-  --ryze-max:1100px;
-  --ryze-font:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+  --solar-bg:#0b0f17;
+  --solar-panel:rgba(255,255,255,.06);
+  --solar-text:rgba(255,255,255,.92);
+  --solar-muted:rgba(255,255,255,.72);
+  --solar-border:rgba(255,255,255,.14);
+  --solar-accent:#ff4db8;
+  --solar-accent-2:#7c5cff;
+  --solar-shadow:0 18px 60px rgba(0,0,0,.45);
+  --solar-radius:18px;
+  --solar-radius-sm:12px;
+  --solar-max:1100px;
+  --solar-font:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
 }
 
 *{box-sizing:border-box}
 
 body{
   margin:0;
-  font-family:var(--ryze-font);
-  color:var(--ryze-text);
+  font-family:var(--solar-font);
+  color:var(--solar-text);
   background:
     radial-gradient(900px 600px at 15% 10%, rgba(124,92,255,.22), transparent 55%),
     radial-gradient(900px 600px at 85% 20%, rgba(255,77,184,.20), transparent 55%),
     linear-gradient(180deg, #070a11, #0b0f17 45%, #070a11);
 }
 
-.ryze-wrap{
-  max-width:var(--ryze-max);
+.solar-wrap{
+  max-width:var(--solar-max);
   margin:auto;
   padding:30px 20px 80px;
 }
 
-.ryze-hero{
+.solar-hero{
   padding:24px;
-  border-radius:var(--ryze-radius);
-  border:1px solid var(--ryze-border);
+  border-radius:var(--solar-radius);
+  border:1px solid var(--solar-border);
   background:rgba(255,255,255,.05);
-  box-shadow:var(--ryze-shadow);
+  box-shadow:var(--solar-shadow);
 }
 
-.ryze-hero h1{
+.solar-hero h1{
   margin:0;
   font-size:32px;
   letter-spacing:.2px;
 }
 
-.ryze-hero p{
+.solar-hero p{
   margin-top:10px;
-  color:var(--ryze-muted);
+  color:var(--solar-muted);
   line-height:1.6;
 }
 
-.ryze-banner{
+.solar-banner{
   width:100%;
   height:auto;
   display:block;
   border-radius:12px;
   margin:15px 0;
-  border:1px solid var(--ryze-border);
-  box-shadow:var(--ryze-shadow);
+  border:1px solid var(--solar-border);
+  box-shadow:var(--solar-shadow);
 }
 
-.ryze-badges{margin-top:10px}
+.solar-badges{margin-top:10px}
 
-.ryze-badge{
+.solar-badge{
   display:inline-block;
   padding:6px 10px;
   border-radius:999px;
   background:rgba(255,255,255,.06);
-  border:1px solid var(--ryze-border);
+  border:1px solid var(--solar-border);
   margin:6px 6px 0 0;
   font-size:12px;
-  color:var(--ryze-muted);
+  color:var(--solar-muted);
 }
 
-.ryze-section{
+.solar-section{
   margin-top:20px;
   padding:20px;
-  border-radius:var(--ryze-radius);
-  border:1px solid var(--ryze-border);
+  border-radius:var(--solar-radius);
+  border:1px solid var(--solar-border);
   background:rgba(255,255,255,.05);
 }
 
-.ryze-section h2{
+.solar-section h2{
   margin:0 0 10px;
   font-size:22px;
 }
 
-.ryze-rule{
+.solar-rule{
   margin-top:15px;
   padding:14px;
-  border-radius:var(--ryze-radius-sm);
+  border-radius:var(--solar-radius-sm);
   border:1px solid rgba(255,255,255,.10);
   background:rgba(255,255,255,.04);
 }
 
-.ryze-rule h3{
+.solar-rule h3{
   margin:0 0 8px;
   font-size:16px;
 }
 
-.ryze-list{
+.solar-list{
   margin:0;
   padding-left:18px;
-  color:var(--ryze-muted);
+  color:var(--solar-muted);
   line-height:1.7;
 }
 
-.ryze-table{
+.solar-table{
   width:100%;
   border-collapse:collapse;
   margin-top:10px;
-  border:1px solid var(--ryze-border);
+  border:1px solid var(--solar-border);
   overflow:hidden;
   border-radius:12px;
 }
 
-.ryze-table th,
-.ryze-table td{
+.solar-table th,
+.solar-table td{
   padding:10px;
-  border-bottom:1px solid var(--ryze-border);
+  border-bottom:1px solid var(--solar-border);
   text-align:left;
 }
 
-.ryze-table th{
+.solar-table th{
   background:rgba(255,255,255,.06);
-  color:var(--ryze-text);
+  color:var(--solar-text);
 }
 
-.ryze-foot{
+.solar-foot{
   margin-top:18px;
   text-align:center;
-  color:var(--ryze-muted);
+  color:var(--solar-muted);
   font-size:12px;
 }
 
 @media (max-width:600px){
-  .ryze-hero h1{font-size:26px}
-  .ryze-section{padding:16px}
+  .solar-hero h1{font-size:26px}
+  .solar-section{padding:16px}
 }
 </style>
 </head>
 
 <body>
-<div class="ryze-wrap">
+<div class="solar-wrap">
 
   <!-- HERO -->
-  <div class="ryze-hero">
-    <h1>Ryze RP — Gang Rules & Regulations</h1>
+  <div class="solar-hero">
+    <h1>solar RP — Gang Rules & Regulations</h1>
 
     <!-- IMAGE -->
-    <img src="ryze-banner.png" alt="Ryze RP" class="ryze-banner">
+    <img src="solar-banner.png" alt="solar RP" class="solar-banner">
 
     <p>
       These rules apply to all registered gangs, leaders, members, prospects, and associates.
@@ -172,30 +172,30 @@ body{
       Failure to comply may result in warnings, strikes, suspensions, or forced disbandment.
     </p>
 
-    <div class="ryze-badges">
-      <span class="ryze-badge">3 Piece Uniform Minimum</span>
-      <span class="ryze-badge">Vehicle Color Matching</span>
-      <span class="ryze-badge">Staff Approved Wars</span>
-      <span class="ryze-badge">Prospects Cannot Engage in Warfare</span>
+    <div class="solar-badges">
+      <span class="solar-badge">3 Piece Uniform Minimum</span>
+      <span class="solar-badge">Vehicle Color Matching</span>
+      <span class="solar-badge">Staff Approved Wars</span>
+      <span class="solar-badge">Prospects Cannot Engage in Warfare</span>
     </div>
   </div>
 
   <!-- 1.0 -->
-  <div class="ryze-section">
+  <div class="solar-section">
     <h2>1.0 Gang Code of Conduct</h2>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>1.1 Dress Code — Gang Representation</h3>
-      <ul class="ryze-list">
+      <ul class="solar-list">
         <li>Minimum of three identifiable uniform pieces must be worn during gang-related RP.</li>
         <li>Uniforms must match gang colors and identity.</li>
         <li>Wearing gang attire outside of gang RP is discouraged.</li>
       </ul>
     </div>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>1.2 Vehicle Guidelines — Gang Representation</h3>
-      <ul class="ryze-list">
+      <ul class="solar-list">
         <li>All members must use the same vehicle color scheme.</li>
         <li>Vehicles should match gang identity.</li>
         <li>Changing colors mid-operation to avoid identification is prohibited.</li>
@@ -203,9 +203,9 @@ body{
       </ul>
     </div>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>1.3 Toxicity & Conduct</h3>
-      <ul class="ryze-list">
+      <ul class="solar-list">
         <li>Talking over bodies is allowed.</li>
         <li>Toxicity must be kept to a minimum and remain within city/community rules.</li>
         <li>Excessive harassment, hate speech, real-life threats, or targeted abuse are strictly prohibited.</li>
@@ -213,9 +213,9 @@ body{
       </ul>
     </div>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>1.4 Org Rebranding — Identity Changes</h3>
-      <ul class="ryze-list">
+      <ul class="solar-list">
         <li>Any changes to a gang’s name, colors, theme, or branding must be approved.</li>
         <li>Submit an <strong>Org Management Ticket</strong> before making any changes.</li>
         <li>Rebranding without approval may result in disciplinary action or disbandment.</li>
@@ -224,12 +224,12 @@ body{
   </div>
 
 <!-- 2.0 -->
-<div class="ryze-section">
+<div class="solar-section">
   <h2>2.0 Gang Hostilities & Conflict Rules</h2>
 
-  <div class="ryze-rule">
+  <div class="solar-rule">
     <h3>2.1 War Declaration Requirements</h3>
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>All war declarations must be approved by Org Staff.</li>
       <li>Wars must be submitted through the <strong>DEC Channel</strong> using the official template (see pinned messages).</li>
       <li>No war is valid without staff approval.</li>
@@ -238,9 +238,9 @@ body{
     </ul>
   </div>
 
-  <div class="ryze-rule">
+  <div class="solar-rule">
     <h3>2.2 Hand Holding — Unrealistic Cooperation</h3>
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>Hand holding of any kind is prohibited.</li>
       <li>Gangs may not share turf, jointly defend compounds, or operate as a single organization.</li>
       <li>External gangs must not interfere in active hostilities unless they have an active declaration against the same organization.</li>
@@ -248,32 +248,32 @@ body{
     </ul>
   </div>
 
-  <div class="ryze-rule">
+  <div class="solar-rule">
     <h3>2.3 Escalation Rules — Conflict Progression</h3>
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>Hostilities must build naturally through roleplay.</li>
       <li>Meetings or verbal confrontations.</li>
       <li>Melee fights, kidnappings, or interrogations.</li>
       <li><strong>Official War Declarations after RP buildup.</strong></li>
     </ul>
 
-    <p style="margin:10px 0 0;color:var(--ryze-muted);line-height:1.6;">
+    <p style="margin:10px 0 0;color:var(--solar-muted);line-height:1.6;">
       Escalation should reflect a naturally developing conflict. Organizations are expected to allow hostilities to build
       through continued roleplay before initiating KOS, which may ultimately progress into an official war declaration.
     </p>
   </div>
 
-  <div class="ryze-rule">
+  <div class="solar-rule">
     <h3>2.4 Hostile Event Limits — City Engagement Cap</h3>
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>Any hostile events in the city must remain within a capped limit to ensure fairness.</li>
       <li>Large-scale or excessive hostile activity is not permitted unless explicitly authorized by Gang Staff.</li>
     </ul>
   </div>
 
-  <div class="ryze-rule">
+  <div class="solar-rule">
     <h3>2.5 Spray Zones — Hostile RP Areas</h3>
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>Spray zones are <strong>not KOS zones</strong>.</li>
       <li>Active spray zones create hostile RP between all involved parties.</li>
       <li>Players participating in or contesting a spray may be robbed and engaged without prior verbal interaction.</li>
@@ -284,21 +284,21 @@ body{
       <li>Third parties not directly involved in the active spray are prohibited from intervening unless otherwise permitted by server rules.</li>
     </ul>
 
-    <p style="margin:10px 0 0;color:var(--ryze-muted);line-height:1.6;">
+    <p style="margin:10px 0 0;color:var(--solar-muted);line-height:1.6;">
       Spray zones are intended to create immediate hostile roleplay opportunities. While players may engage and rob participants without prior verbal interaction, these zones do not grant unrestricted KOS rights and all actions must remain reasonable, proportional, and directly related to the active spray.
     </p>
   </div>
 
-  <div class="ryze-rule">
+  <div class="solar-rule">
     <h3>2.6 Hostile Cooldowns, Robbery & Hostage Restrictions</h3>
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>Players who have left a gang or crew are subject to a <strong>2-day hostile cooldown</strong>.</li>
       <li>During this period, they are not permitted to participate in, assist, or support any hostile actions involving another gang or crew.</li>
       <li>This includes direct involvement, planning, communication, or any form of external support during active conflicts.</li>
       <li>Exceptions may only be granted with <strong>explicit approval from Gang Staff</strong>.</li>
     </ul>
 
-    <ul class="ryze-list">
+    <ul class="solar-list">
       <li>When robbing players during hostile or criminal RP, only <strong>illegal items</strong> directly related to criminal activity may be taken (e.g. drugs, weapons, marked illegal goods, black-market items).</li>
       <li>Cash, bank money, or any form of personal financial compensation cannot be demanded or taken during robberies.</li>
       <li>Players may not be taken hostage for the purpose of demanding money or financial gain.</li>
@@ -306,7 +306,7 @@ body{
       <li>The only exception to this rule is if terms are formally set under an <strong>approved gang war agreement or staff-sanctioned war conditions</strong>.</li>
     </ul>
 
-    <p style="margin:10px 0 0;color:var(--ryze-muted);line-height:1.6;">
+    <p style="margin:10px 0 0;color:var(--solar-muted);line-height:1.6;">
       These rules are designed to prevent unrealistic hostage scenarios, limit exploitative robberies, and ensure roleplay remains balanced, fair, and progression-based.
     </p>
   </div>
@@ -314,16 +314,16 @@ body{
 </div>
 
   <!-- 3.0 -->
-  <div class="ryze-section">
+  <div class="solar-section">
     <h2>3.0 Gang Structure & Limits</h2>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>3.1 Member & Prospect Requirements</h3>
-      <p style="margin:0;color:var(--ryze-muted);line-height:1.6;">
+      <p style="margin:0;color:var(--solar-muted);line-height:1.6;">
         Prospects are <strong>additional</strong> and do <strong>not</strong> count toward full member totals.
       </p>
 
-      <table class="ryze-table">
+      <table class="solar-table">
         <tr>
           <th>Tier</th>
           <th>Full Member Requirement (Minimum)</th>
@@ -352,9 +352,9 @@ body{
       </table>
     </div>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>3.2 Structure Guidelines</h3>
-      <ul class="ryze-list">
+      <ul class="solar-list">
         <li>Organizations must maintain their minimum member requirement to retain their tier.</li>
         <li>Falling below minimum requirements for an extended period may result in a status review.</li>
         <li>Prospect slots are separate from full member limits.</li>
@@ -366,9 +366,9 @@ body{
       </ul>
     </div>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>3.3 Gang Responsibility & Integrity</h3>
-      <ul class="ryze-list">
+      <ul class="solar-list">
         <li>Organizations are responsible for the actions of their members.</li>
         <li>Cheating, exploiting, third-party software, glitches, or knowingly benefiting from cheats may result in strikes or disbandment.</li>
         <li>Consequences may include warnings/strikes, financial penalties, hostility cooldowns, suspension, or forced disbandment.</li>
@@ -377,11 +377,11 @@ body{
   </div>
 
   <!-- 4.0 -->
-  <div class="ryze-section">
+  <div class="solar-section">
     <h2>4.0 Enforcement & Final Notes</h2>
 
-    <div class="ryze-rule">
-      <ul class="ryze-list">
+    <div class="solar-rule">
+      <ul class="solar-list">
         <li>Individual behavior reflects on the entire organization.</li>
         <li>Repeated violations will result in escalating penalties.</li>
         <li>Staff decisions are final.</li>
@@ -390,14 +390,14 @@ body{
       </ul>
     </div>
 
-    <div class="ryze-rule">
+    <div class="solar-rule">
       <h3>🎯 Purpose of Gang RP</h3>
-      <p style="margin:0;color:var(--ryze-muted);line-height:1.6;">
-        Gang roleplay should be immersive, balanced, fair, and story-driven. Quality RP creates the best experience for the entire Ryze RP community.
+      <p style="margin:0;color:var(--solar-muted);line-height:1.6;">
+        Gang roleplay should be immersive, balanced, fair, and story-driven. Quality RP creates the best experience for the entire solar RP community.
       </p>
     </div>
 
-    <div class="ryze-foot">© Ryze RP — Gang Rules & Regulations</div>
+    <div class="solar-foot">© solar RP — Gang Rules & Regulations</div>
   </div>
 
 </div>
